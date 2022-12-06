@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsi_124200059/menu.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -17,15 +16,16 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: MyColors.red,
-
       ),
       home: const Menu(),
     );
   }
 }
 
-class MyColors {
+//NIM 124200059
+//Nama Muhammad Fadel Azka
 
+class MyColors {
   static const MaterialColor red = MaterialColor(
     0XFFB71C1C,
     <int, Color>{
